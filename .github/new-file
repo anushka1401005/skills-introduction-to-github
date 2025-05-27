@@ -1,0 +1,23 @@
+class Overloading
+{
+static int shape(int a,int b)
+{
+int area=a*b;
+return area;
+}
+static int shape(int k)
+{
+int surfarea=k*4;
+return ssurfarea;
+}
+}
+class Main
+{
+public static void main(String[] args)
+{
+int Ar=shape(5,6);
+int surf=shape(7);
+System.out.println(Arr);
+System.out.println(surf);
+}
+}
